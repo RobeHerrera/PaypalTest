@@ -60,8 +60,7 @@
 		2B79DA7A1D6BD3FE00CE9D1B /* PaypalTest */ = {
 			isa = PBXGroup;
 			children = (
-				2B79DA7E1D6BD3FE00CE9D1B /* AppDelegate.h */,
-				2B79DA7F1D6BD3FE00CE9D1B /* AppDelegate.m */,
+				2B79DA961D6BEC0500CE9D1B /* Controllers */,
 				2B79DA951D6BE8DF00CE9D1B /* Main */,
 				2B79DA841D6BD3FE00CE9D1B /* Main.storyboard */,
 				2B79DA8A1D6BD3FE00CE9D1B /* Assets.xcassets */,
@@ -84,10 +83,19 @@
 		2B79DA951D6BE8DF00CE9D1B /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				2B79DA7E1D6BD3FE00CE9D1B /* AppDelegate.h */,
+				2B79DA7F1D6BD3FE00CE9D1B /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		2B79DA961D6BEC0500CE9D1B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				2B79DA811D6BD3FE00CE9D1B /* Start.h */,
 				2B79DA821D6BD3FE00CE9D1B /* Start.m */,
 			);
-			name = Main;
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +319,7 @@
 				2B79DA941D6BD3FE00CE9D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
